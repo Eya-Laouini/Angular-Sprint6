@@ -1,0 +1,88 @@
+/* Importing a Google Font for improved typography */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.auth-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e2e2e2; /* Lighter border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    background-color: #f9f9f9; /* Light background */
+    font-family: 'Open Sans', sans-serif; /* Elegant font */
+}
+
+.auth-header {
+    text-align: center;
+    color: #333; /* Modern text color */
+}
+
+.auth-header h2 {
+    font-size: 26px; /* Slightly larger */
+    font-weight: 600; /* Bold weight */
+}
+
+.auth-header p {
+    font-size: 16px;
+    color: #555; /* Soft text color */
+}
+
+.form-floating {
+    margin-bottom: 20px;
+}
+
+.form-floating label {
+    font-size: 14px;
+    color: #666; /* Modern label color */
+}
+
+.form-floating input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.form-floating input:focus {
+    border-color: #007bff; /* Vibrant focus color */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); /* Focus shadow */
+}
+
+.d-grid {
+    text-align: center;
+}
+
+.d-grid button {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px; /* Add margin to create space between buttons */
+  background: linear-gradient(45deg, #667eea, #d2b8ec);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.d-grid button:hover {
+  background: linear-gradient(45deg, #6e9ff7, #82b1ff);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .auth-form {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* Enhancements for invalid input fields */
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+}

@@ -1,0 +1,23 @@
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card shadow">
+          <div class="card-body">
+            <h3 class="card-title text-center">Verification Code</h3>
+            <form>
+              <div class="mb-3">
+                <label for="verificationCode" class="form-label">Verification Code:</label>
+                <input type="text" id="verificationCode" name="verificationCode" class="form-control" [(ngModel)]="verificationCode" placeholder="Enter Verification Code" />
+              </div>
+              <div class="text-center">
+                <button type="button" (click)="activateUser(username, verificationCode)" class="btn btn-primary">
+                  Verify
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
